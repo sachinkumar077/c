@@ -1,0 +1,10 @@
+int main(){
+ float c,d;
+ printf("enter value of c:\n");
+ scanf("%f",&c);
+ printf("enter value of d:\n");
+ scanf("%f",&d);
+ 
+ printf("c =%f\nd= %f,d,c");
+ return 0;
+}
