@@ -1,0 +1,18 @@
+int main() {
+    float kmd,md,fd,id,cd;
+    printf("enter distance between two cities\n");
+    scanf("%f",&kmd);
+    
+    md = kmd*1000;
+    fd = kmd*3280.83;
+    id = kmd*39320.028;
+    cd = kmd*100000;
+    
+    printf("%.2f distance in meters\n",md);
+    printf("%.2f feets\n",fd);
+    printf("%.2f inches\n",id);
+    printf("%.2f in centimeters\n",cd);
+    
+
+    return 0;
+}
