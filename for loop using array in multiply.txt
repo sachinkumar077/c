@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int marks[3],sum=1;
+    for(int i=0; i<3; i++)
+    {
+        printf("enter the value of %d element of the array\n",i);
+        scanf("%d",&marks[i]);
+    }
+     for(int i=0; i<3; i++)
+    {
+        printf(" element of the array is %d\n",marks[i]);
+        sum *= marks[i];
+       // scanf("%d",&marks[i]);
+    }
+    printf("the sum of array %d\n", sum);
+   
+    return 0;
+}
