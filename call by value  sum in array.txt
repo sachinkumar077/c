@@ -1,0 +1,18 @@
+#include <stdio.h>
+void display (int);
+int main()
+{
+    int i,sum=0;
+    int num[] = {55, 56, 66,78, 66, 66, 78};
+    for(i=0; i<=6; i++){
+    display (num[i]);
+    sum = sum+num[i];
+    }
+     printf ("the sum of i %d\n",sum);
+    return 0;
+}
+void display (int n)
+{
+    printf("%d\n",n);
+    
+}
