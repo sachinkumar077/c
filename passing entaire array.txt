@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main () {
+    int num[]={ 89,24,44,66,54};
+    display (&num[0],5);
+    return 0;
+}
+void display (int *j ,int n)
+{
+    printf("element = %d\n",j);
+    int i;
+    for(i=0; i<n;i++)
+{
+    printf("element = %d\n",*j);
+    j++;
+    printf("element add= %d\n",j);
+}
+}
