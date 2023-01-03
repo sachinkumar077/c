@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int cp,sp,c,d;
+    printf("enter the cost price and selling price an item\n");
+    scanf("%d %d\n",&cp,&sp);
+    c = cp-sp;
+    d=-c;
+    
+    if(c>0)
+    {
+           printf("cost price\n");
+           printf("profit = %d\n",c);
+    }
+    else if (c<0)
+    {
+         printf("seller has incurred loss\n");
+         printf("loss = %d\n",d);
+    }    
+    else
+    {
+        printf("seller has made profit nor loss\n");
+    }
+    return 0;
+}
